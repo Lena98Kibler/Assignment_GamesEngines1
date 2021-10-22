@@ -1,0 +1,17 @@
+ Builds
+*.apk
+*.aab
+*.unitypackage
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*q!
+qa!
+
+
+
+
+'dsf/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
