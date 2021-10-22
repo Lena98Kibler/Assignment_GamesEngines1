@@ -8,7 +8,7 @@ Student Number: C18499016
 
 Class Group: DT211C/ Year 4
 
-Description of Porject:
+Description of Project:
 
 For my project I am planning on creating a procedural terrain. The terrain will be designed to look like a winter wonderland.
 I chose to do a winter inspired terrain as it will challenge me to create a snow like surface and create mountains like the 
