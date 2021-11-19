@@ -10,6 +10,7 @@ public class MeshGenerator : MonoBehaviour
 
     Vector3[] vertices;
     int[] triangles;
+    Vector2[] uvs;
 
     public int xSize = 20;
     public int zSize = 20;
@@ -34,7 +35,7 @@ public class MeshGenerator : MonoBehaviour
     IEnumerator CreateShape()
     {
 
-        vertices = new Vector3[(xSize + 1) * (zSize +1 )];
+        vertices = new Vector3[(xSize + 1) * (zSize + 1)];
         int i = 0; 
 
         for(int z = 0; z <= zSize; z ++)
@@ -42,7 +43,7 @@ public class MeshGenerator : MonoBehaviour
             for(int x = 0; x <= xSize; x ++)
             {
 
-                float y = Mathf.PerlinNoise(x * .3f, z * .3f) * 2f;
+                float y = Mathf.PerlinNoise(x * .5f, z * .5f) * 2f;
                 vertices[i] = new Vector3(x, y, z);
                 i++;
             }
@@ -72,6 +73,18 @@ public class MeshGenerator : MonoBehaviour
             
             vert ++;
         }
+
+        uvs = new Vector2[vertices.Length];
+
+         for(int z = 0; z <= zSize; z ++)
+        {
+            for(int x = 0; x <= xSize; x ++)
+            {
+
+                uvs[i] = new Vector2((float)x / xSize, (float)z / zSize);
+                i++;
+            }
+        }
         
     }
 
@@ -82,6 +95,7 @@ public class MeshGenerator : MonoBehaviour
         mesh.vertices = vertices;
         mesh.triangles = triangles;
         mesh.RecalculateNormals();
+        mesh.uv = uvs;
     }
 
     private void OnDrawGizmos()
