@@ -5,9 +5,9 @@ public class TerrainGenerator : MonoBehaviour
 {
 
     //width of the terrain
-    public int width = 256;
+    public int width = 500;
     //lenght of the terrain 
-    public int height = 256;
+    public int height = 500;
     //height of the terrain on the y-axis
     public int depth = 50;
 
@@ -37,7 +37,7 @@ public class TerrainGenerator : MonoBehaviour
 
         //animating offsetX over time so that the terrain
         //keeps changing
-        offsetX += Time.deltaTime * 1f;
+        offsetX += Time.deltaTime * 0.5f;
 
 
     }
