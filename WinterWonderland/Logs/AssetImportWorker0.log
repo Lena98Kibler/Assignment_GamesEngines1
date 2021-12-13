@@ -15,11 +15,11 @@ C:/Users/lenak/Desktop/Final Year/Games Engines/GitHub/Assignment_GamesEngines1/
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50880
+51491
 Successfully changed project path to: C:/Users/lenak/Desktop/Final Year/Games Engines/GitHub/Assignment_GamesEngines1/WinterWonderland
 C:/Users/lenak/Desktop/Final Year/Games Engines/GitHub/Assignment_GamesEngines1/WinterWonderland
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 48.52 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 107.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,76 +35,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003735 seconds.
+Registered in 0.003600 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 32.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.448 seconds
+- Completed reload, in  1.512 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1448ms)
-		BeginReloadAssembly (75ms)
+	ReloadAssembly (1512ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (474ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (534ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (180ms)
+			SetupTypeCache (187ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (178ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (227ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (33ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (95ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004550 seconds.
+Registered in 0.005201 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.180 seconds
+- Completed reload, in  1.236 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1181ms)
-		BeginReloadAssembly (176ms)
+	ReloadAssembly (1237ms)
+		BeginReloadAssembly (205ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (929ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (945ms)
+			LoadAssemblies (128ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
+			SetupTypeCache (319ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (344ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (348ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (252ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -112,15 +112,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1404 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.4 MB.
 System memory in use after: 88.5 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1874.
-Total: 3.424900 ms (FindLiveObjects: 0.178400 ms CreateObjectMapping: 0.053000 ms MarkObjects: 3.162700 ms  DeleteObjects: 0.029700 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1875.
+Total: 3.039500 ms (FindLiveObjects: 0.182500 ms CreateObjectMapping: 0.061100 ms MarkObjects: 2.767500 ms  DeleteObjects: 0.027100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,57 +135,191 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/TerrainData_1b822c04-0e2e-4c08-a24e-3b3c5e90ed62.asset
-  artifactKey: Guid(c1304608acadc83468b1fe9cb1c22930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_1b822c04-0e2e-4c08-a24e-3b3c5e90ed62.asset using Guid(c1304608acadc83468b1fe9cb1c22930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e784530218d647bd9c78ece4e574b9') in 0.039542 seconds 
-  Import took 0.042434 seconds .
+  path: Assets/StarfieldMaterials/README/Readme.txt
+  artifactKey: Guid(9cf6306c32ff91949a36bb43611e61f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/README/Readme.txt using Guid(9cf6306c32ff91949a36bb43611e61f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9b80116bc19111f2740a3467bb2752') in 0.046466 seconds 
+  Import took 0.049739 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.1 MB.
+System memory in use after: 60.2 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1875.
+Total: 3.758800 ms (FindLiveObjects: 0.170400 ms CreateObjectMapping: 0.055800 ms MarkObjects: 3.513500 ms  DeleteObjects: 0.017900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.513415 seconds.
+  path: Assets/StarfieldMaterials/DemoMaterials/Nebu_far.mat
+  artifactKey: Guid(2c5f1f976ebb41349a8789150d90a6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/DemoMaterials/Nebu_far.mat using Guid(2c5f1f976ebb41349a8789150d90a6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861c49d5908ec9a92d5ee906a95b92c9') in 0.317069 seconds 
+  Import took 0.320145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/StarfieldMaterials/DemoMaterials/Starfield_01_Material.mat
+  artifactKey: Guid(1c386ad723a79204a9ebca483b5ac294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/DemoMaterials/Starfield_01_Material.mat using Guid(1c386ad723a79204a9ebca483b5ac294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdcc6b06ba81bcb06c9e866324370dc') in 0.226904 seconds 
+  Import took 0.230171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/StarfieldMaterials/DemoMaterials/Starfield_Overlay.mat
+  artifactKey: Guid(37e020fa3cd13f94b8d1ba1acbf7d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/DemoMaterials/Starfield_Overlay.mat using Guid(37e020fa3cd13f94b8d1ba1acbf7d0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb1972153f67234d5549b71f6c7cade') in 0.085594 seconds 
+  Import took 0.088667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.728862 seconds.
+  path: Assets/StarfieldMaterials/Textures/SingleNeb
+  artifactKey: Guid(0997958e3ead06144bf65005b6381b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/Textures/SingleNeb using Guid(0997958e3ead06144bf65005b6381b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccfe39244fc893fd4d6ed7f2593edb9') in 0.013186 seconds 
+  Import took 0.016206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042039 seconds.
+  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_01.png
+  artifactKey: Guid(940d2fb1699e983498a0d934bd5ed7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_01.png using Guid(940d2fb1699e983498a0d934bd5ed7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc492f84737d97d62f07c318764b9453') in 0.035578 seconds 
+  Import took 0.041832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_07.png
+  artifactKey: Guid(234956b9f0f6d3342949e325b64b22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_07.png using Guid(234956b9f0f6d3342949e325b64b22db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b4be03b9b28154344aea52895f374c') in 0.040819 seconds 
+  Import took 0.044834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_08.png
+  artifactKey: Guid(4c1e43d371432ae4987708c889515593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_08.png using Guid(4c1e43d371432ae4987708c889515593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2486cf1a0eb990e1a97b0aa27dd86dcb') in 0.036874 seconds 
+  Import took 0.040176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_02.png
+  artifactKey: Guid(7948a5d3ead01f4479a143b7953e0961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_02.png using Guid(7948a5d3ead01f4479a143b7953e0961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84faa05bffbdbf95881294a5bca14223') in 0.038391 seconds 
+  Import took 0.042123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_05.png
+  artifactKey: Guid(bec00bfeb5521ff48b28ac4df811d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_05.png using Guid(bec00bfeb5521ff48b28ac4df811d531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2ab03c62a6e46c5973f63087f56575') in 0.038796 seconds 
+  Import took 0.042581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_04.png
+  artifactKey: Guid(d9a44efbb7762a94695e1a651bff8940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_04.png using Guid(d9a44efbb7762a94695e1a651bff8940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cad225be145058ab179f527962db60a') in 0.040429 seconds 
+  Import took 0.043845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_03.png
+  artifactKey: Guid(1987bbe697e48644e83c89f4defc77a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_03.png using Guid(1987bbe697e48644e83c89f4defc77a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdcebc16ae9df04ec89cc6ad65ff43e') in 0.039919 seconds 
+  Import took 0.043508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_09.png
+  artifactKey: Guid(1a0be4ce8ad331141b7759d94dac84f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_09.png using Guid(1a0be4ce8ad331141b7759d94dac84f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ee1beb5ce5f6b1bb8c6e6f92bf8aa0') in 0.037909 seconds 
+  Import took 0.041779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_10.png
+  artifactKey: Guid(552fd930f2b35f8479d0d62dbeaa8d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_10.png using Guid(552fd930f2b35f8479d0d62dbeaa8d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219088147bd423ee9e0bd13a4454aa26') in 0.058274 seconds 
+  Import took 0.071773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_06.png
+  artifactKey: Guid(260e79429a42d56439946e97aa96c221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarfieldMaterials/Textures/SingleNeb/SingleNeb_06.png using Guid(260e79429a42d56439946e97aa96c221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25544c71d76bfc7f89f9142e690cf28f') in 0.037347 seconds 
+  Import took 0.043012 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004272 seconds.
+Registered in 0.004680 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.198 seconds
+- Completed reload, in  1.252 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1199ms)
-		BeginReloadAssembly (141ms)
+	ReloadAssembly (1253ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (927ms)
-			LoadAssemblies (123ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1040ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
+			SetupTypeCache (475ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (325ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (308ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (240ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (226ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.3 MB.
+System memory in use before: 91.5 MB.
+System memory in use after: 91.6 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1877.
-Total: 3.362100 ms (FindLiveObjects: 0.156600 ms CreateObjectMapping: 0.063400 ms MarkObjects: 3.112900 ms  DeleteObjects: 0.027800 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1919.
+Total: 3.269200 ms (FindLiveObjects: 0.159700 ms CreateObjectMapping: 0.051700 ms MarkObjects: 3.035700 ms  DeleteObjects: 0.020700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -198,85 +332,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 147.335456 seconds.
-  path: Assets/StarfieldMaterials
-  artifactKey: Guid(54e496f4cfc1ebf4ba64aa75e4d94345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials using Guid(54e496f4cfc1ebf4ba64aa75e4d94345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1741fe9eb7e14c04187bda51d722a937') in 0.016565 seconds 
-  Import took 0.020217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.452302 seconds.
-  path: Assets/StarfieldMaterials/Scenes
-  artifactKey: Guid(0cc8583eb8a90684db14637cefe122ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Scenes using Guid(0cc8583eb8a90684db14637cefe122ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd88c34634b09398eaab4d70cb2417c') in 0.014072 seconds 
-  Import took 0.016693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.093561 seconds.
-  path: Assets/StarfieldMaterials/Scenes/DemoScene.unity
-  artifactKey: Guid(4dbac6043b5252d428c7c7447d24b268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Scenes/DemoScene.unity using Guid(4dbac6043b5252d428c7c7447d24b268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4918540602e9fa5fa6ab14fc71216628') in 0.032283 seconds 
-  Import took 0.036007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.354162 seconds.
-  path: Assets/StarfieldMaterials/Scenes/DemoSceneSettings.lighting
-  artifactKey: Guid(357972caaba2e5c468c076904e258379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Scenes/DemoSceneSettings.lighting using Guid(357972caaba2e5c468c076904e258379) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
- -> (artifact id: '66f7cfaf41bfe84792f3744058f005ed') in 0.014644 seconds 
-  Import took 0.017497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.729607 seconds.
-  path: Assets/StarfieldMaterials/Textures
-  artifactKey: Guid(8f41b23badd3db64f9b047a192436638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures using Guid(8f41b23badd3db64f9b047a192436638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ec4b098795dd56491995ee6e763eb2') in 0.010053 seconds 
-  Import took 0.013184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.348646 seconds.
-  path: Assets/StarfieldMaterials/Textures/Plain Starfields
-  artifactKey: Guid(6471a7c7a8ef7594ebe37be350cb4e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/Plain Starfields using Guid(6471a7c7a8ef7594ebe37be350cb4e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348cdb0372ad7eb3c716faed937dc04f') in 0.014111 seconds 
-  Import took 0.017185 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.047413 seconds.
-  path: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_01.png
-  artifactKey: Guid(a63e1f65418ac804b89b705260d13a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_01.png using Guid(a63e1f65418ac804b89b705260d13a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0551ebd0ecdb04867d0f58ce5ee3e087') in 0.056248 seconds 
-  Import took 0.059772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_03.png
-  artifactKey: Guid(fcc746ac4fb800f41a7c1dd4bc0005ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_03.png using Guid(fcc746ac4fb800f41a7c1dd4bc0005ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25cc5231b7ef77a065a1bc0ecc8d7259') in 0.018850 seconds 
-  Import took 0.021383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_02.png
-  artifactKey: Guid(d2c0af12fa3f7c5439d9ac9177aa6a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_02.png using Guid(d2c0af12fa3f7c5439d9ac9177aa6a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ea5ad09a169e73f4a25fa95ea1af9b') in 0.024233 seconds 
-  Import took 0.026737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_04.png
-  artifactKey: Guid(3967a03b335a71a42ac2f18c85e10d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarfieldMaterials/Textures/Plain Starfields/PlainStarfield_04.png using Guid(3967a03b335a71a42ac2f18c85e10d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f4a46d63e3a4a09139bda72ea1aa62') in 0.017682 seconds 
-  Import took 0.020162 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
