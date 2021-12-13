@@ -13,7 +13,19 @@ public class TerrainGenerator : MonoBehaviour
 
     public float scale = 20f;
 
+    //creating a random terrain each time
+    public float offsetX = 100f;
+    public float offsetY = 100f;
+
     void Start()
+    {
+
+        offsetX = Random.Range(0f, 9999f);
+        offsetY = Random.Range(0f, 9999f);
+
+    }
+
+    void Update()
     {
 
         //reference to the terrain components so that
@@ -22,6 +34,11 @@ public class TerrainGenerator : MonoBehaviour
 
         //accessing terrain data
         terrain.terrainData = GenerateTerrain(terrain.terrainData);
+
+        //animating offsetX over time so that the terrain
+        //keeps changing
+        offsetX += Time.deltaTime * 2f;
+
 
     }
 
@@ -75,8 +92,8 @@ public class TerrainGenerator : MonoBehaviour
 
         //calculating noise coordinates as decimal place numbers
         //converting them into noise map coordinates
-        float xCoord = (float)x / width * scale;
-        float yCoord = (float)y / height * scale;
+        float xCoord = (float)x / width * scale + offsetX;
+        float yCoord = (float)y / height * scale + offsetY;
 
         return Mathf.PerlinNoise(xCoord, yCoord);
 
