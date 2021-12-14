@@ -33,5 +33,6 @@ public class SleighControler : MonoBehaviour
         //apply input to movement
         transform.position += transform.forward * activeForwardSpeed * Time.deltaTime;
         transform.position += (transform.right * activeStrafeSpeed * Time.deltaTime) + (transform.up * activeHoverSpeed * Time.deltaTime);
+
     }
 }
