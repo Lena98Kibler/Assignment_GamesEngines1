@@ -12185,7 +12185,7 @@ GameObject:
   - component: {fileID: 2118265119}
   - component: {fileID: 2118265118}
   m_Layer: 0
-  m_Name: Cylinder
+  m_Name: Candycane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
