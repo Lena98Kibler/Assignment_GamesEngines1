@@ -6,6 +6,7 @@ public class ItemAreaSpawner : MonoBehaviour
 {
 
     public GameObject itemToSpread;
+    public int numItemstoSpawn = 10;
 
     public float itemXSpread = 10;
     public float itemYSpread = 0;
@@ -14,9 +15,14 @@ public class ItemAreaSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
-        SpreadItem();
 
+        for(int i = 0; i < numItemstoSpawn; i++)
+        {
+
+            SpreadItem();
+
+        }
+        
     }
 
     void SpreadItem()
