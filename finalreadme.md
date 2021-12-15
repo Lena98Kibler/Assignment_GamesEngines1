@@ -22,3 +22,7 @@ The project within this GitHub Repository consits of a procedurally generated te
 	* Right     --> move right
 	* Space Bar --> move forwards
 	* Left Ctrl --> move backwards
+7. Fly around the terrain and have fun !!
+
+## How it works
+When the project has been activated (i.e the play button has been pressed), the main terrain begins to procedurally generate using the TerrainGenerator script. This script allows the terrain to change every 0.2f, resulting in a never-ending generation of random mountains with different float points. Simultaneously the Candycane Prefab that's attached to an empty game object called SpawnCandycane, gets placed all along the terrain in random postions. This is possible thanks to the ItemAreaSpawner script thats attached to the SpawnCandycane object. There are two other prefabs that spawn while the project is playing, they are called Present1 and Present2. Present1 is attached to an empty game object called SpawnPresents and Present2 is attached to SpawnGifts. Both of these game objects use the ItemAreaSpawner to drop presents out of the sky onto random points within the terrain. 
