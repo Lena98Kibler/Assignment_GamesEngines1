@@ -6,9 +6,9 @@ public class SleighControler : MonoBehaviour
 {
 
     //controlling speeds
-    public float forwardSpeed = 25f;
-    public float strafeSpeed = 7.5f;
-    public float hoverSpeed = 5f;
+    public float forwardSpeed = 15f;
+    public float strafeSpeed = 15f;
+    public float hoverSpeed = 15f;
 
     //storing input
     private float activeForwardSpeed;
@@ -16,16 +16,10 @@ public class SleighControler : MonoBehaviour
     private float activeHoverSpeed;
     
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
-        //getting input
+        //getting input from user keyboard
         activeForwardSpeed = Input.GetAxisRaw("Vertical") * forwardSpeed;
         activeStrafeSpeed = Input.GetAxisRaw("Horizontal") * strafeSpeed;
         activeHoverSpeed = Input.GetAxisRaw("Hover") * hoverSpeed;
