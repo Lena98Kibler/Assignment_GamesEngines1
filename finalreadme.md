@@ -60,4 +60,19 @@ Reference6: Code viewd in a Youtube video, Created by Brackeys
 ## What am I most proud of in the assignment 
 The thing that I'm most proud of in this assignment is that I have actually managed to complete it. What I mean by that is, that at the time when the assignment was first introduced, I set myself some goals and I think I have achieved them. From having absolutelty zero experiance with Unity to being able to create some really cool scenes. I have also never programmed using C# so I'm definately proud of myself for learning that new skill and now being fairly comfortable with C# coding in Unity although I still have a lot to learn. Another thing that I am also very proud of in this assignment are my 3D Models, in particular the Sleigh. It took me hours to add and modify different 3D shapes to be able to come out with the final result. Please find 5 images of the design process in the github repository.
 
+## Proposal Submitted Earlier:
+Assignment_GamesEngines1
+Project Title: Winter Wonderland - Procedural Winter Terrain
+
+Name: Lena Kibler
+
+Student Number: C18499016
+
+Class Group: DT211C/ Year 4
+
+Description of Project:
+
+For my project I am planning on creating a procedural terrain. The terrain will be designed to look like a winter wonderland. I chose to do a winter inspired terrain as it will challenge me to create a snow like surface and create mountains like the ones you can find in Greenland.
+
+Another cool aspect that I am planning on adding to this project is snow falling out of the sky as well as adding spawning animals like polar bears and penguins.
 
