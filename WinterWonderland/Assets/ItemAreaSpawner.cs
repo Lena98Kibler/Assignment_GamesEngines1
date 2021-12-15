@@ -5,7 +5,8 @@ using UnityEngine;
 public class ItemAreaSpawner : MonoBehaviour
 {
 
-    public GameObject itemToSpread;
+    public GameObject itemToSpawn;
+
     public int numItemstoSpawn = 10;
 
     public float itemXSpread = 10;
@@ -29,7 +30,7 @@ public class ItemAreaSpawner : MonoBehaviour
     {
 
         Vector3 randPosition = new Vector3 (Random.Range(-itemXSpread, itemXSpread),Random.Range(-itemYSpread, itemYSpread), Random.Range(-itemZSpread, itemZSpread));
-        GameObject clone = Instantiate(itemToSpread, randPosition, Quaternion.identity);
+        GameObject clone = Instantiate(itemToSpawn, randPosition, Quaternion.identity);
 
     }
 

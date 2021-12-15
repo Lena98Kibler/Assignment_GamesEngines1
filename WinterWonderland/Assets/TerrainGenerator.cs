@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 public class TerrainGenerator : MonoBehaviour
@@ -38,7 +37,7 @@ public class TerrainGenerator : MonoBehaviour
 
         //animating offsetX over time so that the terrain
         //keeps changing
-        offsetX += Time.deltaTime * 0.5f;
+        offsetX += Time.deltaTime * 0.2f;
 
 
     }
