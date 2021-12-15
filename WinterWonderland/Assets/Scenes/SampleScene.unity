@@ -2440,7 +2440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemToSpawn: {fileID: 8717972555438706857, guid: 59ef7773149105740968c14c5788bc8e, type: 3}
-  numItemstoSpawn: 50
+  numItemstoSpawn: 40
   itemXSpread: 200
   itemYSpread: 45
   itemZSpread: 200
@@ -3340,7 +3340,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601613455}
   m_LocalRotation: {x: 0.00062783336, y: -0.70052516, z: -0.7136272, w: -0.0007031096}
-  m_LocalPosition: {x: -36.9, y: 64.1, z: -187.6}
+  m_LocalPosition: {x: -36.9, y: 44.4, z: -185}
   m_LocalScale: {x: 0.13, y: 1.6, z: 0.13}
   m_Children:
   - {fileID: 290324439}
@@ -3377,9 +3377,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ddf8345403743f846a74db87a630b3fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardSpeed: 10
-  strafeSpeed: 10
-  hoverSpeed: 10
+  forwardSpeed: 15
+  strafeSpeed: 15
+  hoverSpeed: 15
 --- !u!1 &615056389
 GameObject:
   m_ObjectHideFlags: 0
@@ -3457,13 +3457,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615056389}
-  m_LocalRotation: {x: -0.0007067952, y: 0.78022146, z: 0.6255027, w: -0.0006236811}
-  m_LocalPosition: {x: 6.999996, y: -5.0999985, z: 36.000477}
+  m_LocalRotation: {x: -0.013024051, y: 0.8168376, z: 0.57644033, w: -0.01798097}
+  m_LocalPosition: {x: 9, y: -3.6, z: 38}
   m_LocalScale: {x: 7.6919956, y: 7.662559, z: 0.6251991}
   m_Children: []
   m_Father: {fileID: 601613459}
   m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: -102.562, y: 0.4889984, z: -180.496}
+  m_LocalEulerAnglesHint: {x: -109.738, y: 7.552994, z: -187.145}
 --- !u!114 &615056393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3476,6 +3476,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e02d24af3e339324b9457fa9dcf9d8a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputX: 0
+  inputZ: 0
 --- !u!1 &629062255
 GameObject:
   m_ObjectHideFlags: 0
@@ -7303,7 +7305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemToSpawn: {fileID: 1697447235559085003, guid: 5af4f2658cf9dd247990cd1afcf7f2b0, type: 3}
-  numItemstoSpawn: 100
+  numItemstoSpawn: 50
   itemXSpread: 100
   itemYSpread: 500
   itemZSpread: 100
@@ -8415,7 +8417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemToSpawn: {fileID: 1736667706070026400, guid: 97cc19827b4ffe84985da50d0969408f, type: 3}
-  numItemstoSpawn: 100
+  numItemstoSpawn: 50
   itemXSpread: 100
   itemYSpread: 500
   itemZSpread: 100
